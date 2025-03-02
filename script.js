@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const welcomeUser = document.getElementById("welcomeUser");
   const addIdeaBtn = document.getElementById("addIdea");
 
-  //  Check if user is logged in
+  //  Checking if user is logged in
   const currentUser = localStorage.getItem("currentUser");
 const currentUsername = localStorage.getItem("currentUsername");
 
