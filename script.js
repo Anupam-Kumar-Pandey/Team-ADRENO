@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const welcomeUser = document.getElementById("welcomeUser");
   const addIdeaBtn = document.getElementById("addIdea");
 
-  // 🔒 Check if user is logged in
+  //  Check if user is logged in
   const currentUser = localStorage.getItem("currentUser");
 const currentUsername = localStorage.getItem("currentUsername");
 
@@ -16,13 +16,13 @@ if (!currentUser || !currentUsername) {
 }
 
 
-  // 🚪 Logout
+  //  Logout
   logoutBtn.addEventListener("click", () => {
       localStorage.removeItem("currentUser");
       window.location.href = "auth.html";
   });
 
-  // 📝 Add Idea
+  //  Add Idea
   addIdeaBtn.addEventListener("click", () => {
       const text = ideaInput.value.trim();
       if (text) {
@@ -46,7 +46,7 @@ if (!currentUser || !currentUsername) {
       }
   });
 
-  // 👍 Like Idea
+  //  Like Idea
   window.likeIdea = function(id) {
       let ideas = JSON.parse(localStorage.getItem("ideas")) || [];
       let idea = ideas.find(i => i.id === id);
@@ -69,7 +69,7 @@ if (!currentUser || !currentUsername) {
       renderIdeas();
   };
 
-  // 👎 Dislike Idea
+  //  Dislike Idea
   window.dislikeIdea = function(id) {
       let ideas = JSON.parse(localStorage.getItem("ideas")) || [];
       let idea = ideas.find(i => i.id === id);
@@ -107,7 +107,7 @@ if (!currentUser || !currentUsername) {
       }
   };
 
-  // 🗑️ Delete Idea
+  // Delete Idea
   window.deleteIdea = function(id) {
       let ideas = JSON.parse(localStorage.getItem("ideas")) || [];
       let idea = ideas.find(i => i.id === id);
@@ -121,7 +121,7 @@ if (!currentUser || !currentUsername) {
       }
   };
 
-  // 💬 Add Comment
+  //  Add Comment
   window.addComment = function(id) {
       let ideas = JSON.parse(localStorage.getItem("ideas")) || [];
       let idea = ideas.find(i => i.id === id);
@@ -136,7 +136,7 @@ if (!currentUser || !currentUsername) {
       }
   };
 
-  // 📜 Render Ideas
+  //  Render Ideas
   function renderIdeas() {
     ideasList.innerHTML = "";
     let ideas = JSON.parse(localStorage.getItem("ideas")) || [];

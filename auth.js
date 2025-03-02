@@ -18,7 +18,7 @@ document.getElementById("backToLogin").addEventListener("click", function () {
   document.getElementById("loginPage").style.display = "block";
 });
 
-// 🔹 Signup Function
+//  Signup Function
 document.getElementById("signupForm").addEventListener("submit", function (event) {
   event.preventDefault();
   
@@ -46,7 +46,7 @@ document.getElementById("signupForm").addEventListener("submit", function (event
 });
 
 
-// 🔹 Login Function
+//  Login Function
 document.getElementById("loginForm").addEventListener("submit", function (event) {
   event.preventDefault();
 
@@ -73,7 +73,7 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
 });
 
 
-// 🔹 Reset Password Function
+//  Reset Password Function
 document.getElementById("resetPasswordForm").addEventListener("submit", function (event) {
   event.preventDefault();
 
