@@ -37,6 +37,6 @@ Future Improvements
 
 Github Repo Link : https://github.com/Anupam-Kumar-Pandey/Team-ADRENO
 
-Video Link: 
+Video Link: https://youtu.be/NjzvFZmJ2TI
 
 Deploy Link: https://anupam-kumar-pandey.github.io/Team-ADRENO/
