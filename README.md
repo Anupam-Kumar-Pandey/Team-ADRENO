@@ -17,7 +17,7 @@ Local Storage: Used to store user credentials and ideas.
 
 Setup Instructions
 1)Clone the Repository:
-  git clone https://github.com/yourusername/your-repository.git
+  git clone https://github.com/Anupam-Kumar-Pandey/Team-ADRENO.git
 
 2)Navigate to the Project Folder:
   cd your-repository
@@ -34,3 +34,7 @@ Future Improvements
 1)Use a backend with a database (e.g., Firebase, MongoDB) for persistent storage.
 2)Implement real-time updates using WebSockets or Firebase Firestore.
 3)Improve security with encrypted authentication methods.
+
+Github Repo Link : https://github.com/Anupam-Kumar-Pandey/Team-ADRENO
+
+Video Link: 
